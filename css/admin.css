@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    margin: 0 auto;
+    position: relative;
+}
+
+h2 {
+    color: #16396B;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+
+
+li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+li img {
+    width: 20px;
+    height: 20px;
+}
+
+.notification {
+    color: green;
+    background-color: #cdffcb;
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 100px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.task-text {
+    flex: 1;
+}
+
+.task-title {
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.task-description {
+    font-weight: normal;
+    color: #555;
+}
+
+#task-title {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+#task-description {
+    width: 100%;
+    height: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    resize: vertical;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.title img {
+    width: 20px;
+    height: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#button-c {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #16396B;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+
+}

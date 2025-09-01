@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+
+.login-container {
+    width: 300px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 15px;              
+}
+
+img {
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #16396B;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+
+}
+
+.error{
+    color: rgb(247, 85, 85);
+    background-color: #FFCCCB;
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 4px;
+}
